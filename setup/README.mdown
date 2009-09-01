@@ -1,0 +1,9 @@
+To set things up:
+
+1. Move this folder to `~/bin/dotfiles`
+2. Remove your `~/.bashrc` and `~/.bash_profile` files if they exist and replace them with the files in this directory.
+3. Rename those files to start with a dot.
+4. Copy `git/gitconfig-example` to `git/gitconfig` and set it up how you like it.
+5. `ln -s ~/bin/gitconfig ~/.gitconfig`
+6. Copy `ssh/config-example` to `ssh/config` and set it up how you like it.
+7. `ln -s ~/ssh/config ~/.ssh/config` (assuming you have an `~/.ssh` directory already)

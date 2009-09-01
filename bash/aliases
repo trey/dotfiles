@@ -1,0 +1,28 @@
+alias h=history
+alias tu="top -o cpu"   # CPU
+alias tm="top -o vsize" # memory
+alias ra="source ~/bin/dotfiles/bash/aliases" # reload aliases
+alias ea="mate -w ~/bin/dotfiles/bash/aliases && ra" # edit aliases
+alias cdtm="cd ~/'Library/Application Support/TextMate/Bundles/'"
+alias retm="osascript -e 'tell app \"TextMate\" to reload bundles'"
+function take() {
+	mkdir $1
+	cd $1
+}
+
+# Git
+alias gst="git status"
+alias gl="git pull"
+alias gp="git push"
+alias gd="git diff | mate"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gcm="git commit -a -m"
+alias gx="git log --pretty=oneline --graph --all --abbrev-commit" # GitX style on the command line
+function gbt () {
+	# Setup a tracking branch from [remote] [branch_name]
+	git branch --track $2 $1/$2
+	git checkout $2
+}
