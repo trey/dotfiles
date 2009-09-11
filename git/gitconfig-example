@@ -22,3 +22,5 @@
 	untracked = cyan
 [apply]
 	whitespace = nowarn
+[core]
+	excludesfile = "~/.gitexcludes"
