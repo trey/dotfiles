@@ -9,6 +9,7 @@ function take() {
 	mkdir $1
 	cd $1
 }
+alias dj="./manage.py runserver"
 
 # App Engine
 alias aeu="appcfg.py update ."
