@@ -10,6 +10,7 @@ function take() {
 	cd $1
 }
 alias dj="./manage.py runserver"
+alias delpyc="find . -name '*.pyc' -print0|xargs -0 rm"
 
 # App Engine
 alias aeu="appcfg.py update ."
