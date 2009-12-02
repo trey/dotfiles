@@ -1,0 +1,6 @@
+# if you are typing a command in bash and you hit
+# arrow up, it'll find the things in your history
+# that match what you've typed so far. -- Kevin McConnell
+
+"\e[B": history-search-forward
+"\e[A": history-search-backward
