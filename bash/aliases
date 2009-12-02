@@ -17,7 +17,16 @@ alias djreset="rm dev.db; ./manage.py syncdb --noinput; ./manage.py loaddata aut
 
 # Recursive Deleting
 alias delpyc="find . -name '*.pyc' -print0|xargs -0 rm"
-alias delsvn="rm -rf \`find . -type d -name .svn\`"
+function delsvn() {
+	while true; do
+		read -p "Are you sure? " yn
+		case $yn in
+			[Yy]* ) rm -rf `find . -type d -name .svn`; break;;
+			[Nn]* ) break;;
+			* ) echo "Please answer yes or no.";;
+		esac
+	done
+}
 
 # App Engine
 alias aeu="appcfg.py update ."
