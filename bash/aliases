@@ -10,6 +10,29 @@ function take() {
 	mkdir $1
 	cd $1
 }
+function template() {
+	if [[ $1 != '' ]] ; then
+		mkdir $1
+		cd $1
+		cp ~/Webs/site-template/html5.html ./index.html
+		echo ""
+		echo "copied $1/index.html ..."
+		cp ~/Webs/site-template/.htaccess .
+		echo "copied $1/.htaccess ..."
+		cp ~/Webs/site-template/robots.txt .
+		echo "copied $1/robots.txt ..."
+		cp -R ~/Webs/site-template/css .
+		echo "copied $1/css/ ..."
+		cp -R ~/Webs/site-template/js .
+		echo "copied $1/js/ ..."
+		cp -R ~/Webs/site-template/img .
+		echo "copied $1/img/ ..."
+		echo ""
+		echo "Success!"
+	else
+		echo "usage: template directory"
+	fi
+}
 
 #Django
 alias dj="./manage.py runserver"
