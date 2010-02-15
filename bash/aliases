@@ -37,6 +37,7 @@ function template() {
 #Django
 alias dj="./manage.py runserver"
 alias djreset="rm dev.db; ./manage.py syncdb --noinput; ./manage.py loaddata auth auth.json"
+alias djemail="python -m smtpd -n -c DebuggingServer localhost:1025"
 
 # Recursive Deleting
 alias delpyc="find . -name '*.pyc' -print0|xargs -0 rm"
