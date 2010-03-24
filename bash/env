@@ -1,7 +1,7 @@
 export EDITOR="mate -w"
 export SVN_EDITOR="mate -w"
 export GIT_EDITOR="mate -w"
-export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/bin:
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 . /usr/local/bin/virtualenvwrapper_bashrc
 . ~/src/django/extras/django_bash_completion
