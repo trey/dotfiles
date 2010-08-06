@@ -35,10 +35,10 @@ hi lCursor guibg=Cyan guifg=NONE
 hi Directory guifg=Blue
 hi LineNr guifg=#dddddd
 hi MoreMsg gui=bold guifg=SeaGreen
-hi NonText gui=bold guifg=Blue guibg=grey90
+hi NonText gui=bold guifg=#dddddd
 hi Question gui=bold guifg=SeaGreen
 hi Search guibg=#dddddd guifg=NONE
-hi SpecialKey guifg=Blue
+hi SpecialKey guifg=#dddddd
 hi Title gui=bold guifg=Magenta
 hi WarningMsg guifg=Red
 hi WildMenu guibg=Yellow guifg=Black
