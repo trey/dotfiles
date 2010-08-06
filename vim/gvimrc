@@ -8,5 +8,5 @@ set guioptions-=T                 " Hide toolbar.
 set background=light              " Background.
 set lines=40 columns=125          " Window dimensions.
 
-set guioptions-=r                 " Don't show right scrollbar
+" set guioptions-=r                 " Don't show right scrollbar
 
