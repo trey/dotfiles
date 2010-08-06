@@ -55,7 +55,7 @@ set listchars=tab:▸\ ,eol:¬
 set list
 
 " Or use vividchalk
-colorscheme topfunky-light
+colorscheme github
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
