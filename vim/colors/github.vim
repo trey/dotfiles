@@ -78,3 +78,7 @@ hi Pmenu                guibg=#babdb6 guifg=#555753
 hi StatusLine           guifg=#666666 guibg=#eaeaea
 hi Visual               guifg=NONE guibg=#ffffcc
 
+" Invisible character
+highlight NonText guifg=#dddddd
+highlight SpecialKey guifg=#dddddd
+

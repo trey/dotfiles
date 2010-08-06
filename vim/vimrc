@@ -54,8 +54,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 set listchars=tab:▸\ ,eol:¬
 set list
 
-" Or use vividchalk
-colorscheme github
+colorscheme clouds
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
