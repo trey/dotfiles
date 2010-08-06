@@ -33,7 +33,7 @@ hi DiffText gui=bold guibg=Red
 hi Cursor guibg=Black guifg=#cccccc
 hi lCursor guibg=Cyan guifg=NONE
 hi Directory guifg=Blue
-hi LineNr guifg=#dddddd
+hi LineNr guifg=#bcbcbc guibg=#efefef
 hi MoreMsg gui=bold guifg=SeaGreen
 hi NonText gui=bold guifg=#dddddd
 hi Question gui=bold guifg=SeaGreen
