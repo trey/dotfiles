@@ -52,7 +52,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 " http://vimcasts.org/episodes/show-invisibles/
 set list listchars=tab:▸\ ,eol:¬
 
-colorscheme clouds
+colorscheme wombat
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
