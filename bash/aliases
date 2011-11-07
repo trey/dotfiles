@@ -73,3 +73,8 @@ function gbt () {
 	git checkout $2
 }
 alias fu="frank up"
+
+# Pow
+# https://gist.github.com/1343748
+alias startpow='curl get.pow.cx | sh'
+alias stoppow='curl get.pow.cx/uninstall.sh | sh'
