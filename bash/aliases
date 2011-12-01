@@ -72,7 +72,7 @@ function gbt () {
 	git branch --track $2 $1/$2
 	git checkout $2
 }
-alias fu="frank up"
+alias plog="git log --pretty=format:'%C(yellow)%h%Creset %s %Cblue%d%Creset' --graph --decorate=full --all"
 
 # Pow
 # https://gist.github.com/1343748
