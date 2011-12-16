@@ -6,6 +6,7 @@ To set things up:
 1. `ln -s ~/bin/dotfiles/bash/bash_profile ~/.bash_profile`
 1. `ln -s ~/bin/dotfiles/bash/bashrc ~/.bashrc`
 1. `ln -s ~/bin/dotfiles/bash/inputrc ~/.inputrc`
+1. `ln -s ~/bin/dotfiles/bash/tm_properties ~/.tm_properties`
 1. `ln -s ~/bin/dotfiles/vim/vimrc ~/.vimrc`
 1. `ln -s ~/bin/dotfiles/vim/gvimrc ~/.gvimrc`
 1. `ln -s ~/bin/dotfiles/vim ~/.vim`
