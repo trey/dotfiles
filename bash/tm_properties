@@ -1,2 +1,3 @@
-fontName = "Inconsolata"
-fontSize = 14
+fontName       = "Inconsolata"
+fontSize       = 14
+showInvisibles = true
