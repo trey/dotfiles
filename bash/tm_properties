@@ -1,3 +1,7 @@
 fontName       = "Inconsolata"
 fontSize       = 14
 showInvisibles = true
+softWrap       = false
+
+[ "*.{txt,md,mdown,markdown}" ]
+softWrap = true
