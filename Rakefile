@@ -30,7 +30,10 @@ task :setup do
     exec "cp git/gitconfig-example git/gitconfig"
   end
   if check_file("~/.gitconfig") == false
-    exec "ln -s ~/bin/dotfiles/gitconfig ~/.gitconfig"
+    exec "ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig"
+  end
+  if check_file("~/.gitexcludes") == false
+    exec "ln -s ~/bin/dotfiles/git/gitexcludes ~/.gitexcludes"
   end
   if check_file("ssh/config") == false
     exec "cp ssh/config-example ssh/config"
