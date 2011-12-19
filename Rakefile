@@ -15,7 +15,7 @@ task :setup do
     exec "ln -s ~/bin/dotfiles/bash/inputrc ~/.inputrc"
   end
   if check_file("~/.tm_properties") == false
-    exec "ln -s ~/bin/dotfiles/bash/tm_properties ~/.tm_properties"
+    exec "ln -s ~/bin/dotfiles/tm/tm_properties ~/.tm_properties"
   end
   if check_file("~/.vimrc") == false
     exec "ln -s ~/bin/dotfiles/vim/vimrc ~/.vimrc"
