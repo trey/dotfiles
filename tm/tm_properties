@@ -7,3 +7,6 @@ windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/trey\/Sites\/[\w-]+\/
 
 [ "*.{txt,md,mdown,markdown}" ]
 softWrap = true
+
+[ "*.{html,erb,php}" ]
+softWrap = false
