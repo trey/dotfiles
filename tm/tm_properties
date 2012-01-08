@@ -5,8 +5,5 @@ softWrap       = false
 
 windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/trey\/Sites\/[\w-]+\/?(.*)|(.+))\z/${2:? – ${2/\/Users\/trey/~/}:${1/\A(?=.)/ – /}}/}"
 
-[ "*.{txt,md,mdown,markdown}" ]
-softWrap = true
-
-[ "*.{html,erb,php}" ]
+[ text.html ]
 softWrap = false
