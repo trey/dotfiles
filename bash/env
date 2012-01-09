@@ -3,6 +3,10 @@ export SVN_EDITOR="mate -w"
 export GIT_EDITOR="mate -w"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-. /usr/local/bin/virtualenvwrapper.sh
-. ~/src/django/extras/django_bash_completion
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+	. /usr/local/bin/virtualenvwrapper.sh
+	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+fi
+if [ -f ~/src/django/extras/django_bash_completion ]; then
+	. ~/src/django/extras/django_bash_completion
+fi
