@@ -66,7 +66,6 @@ alias gca="git commit -v -a"
 alias gb="git branch"
 alias gba="git branch -a"
 alias gcm="git commit -a -m"
-alias gx="git log --pretty=oneline --graph --all --abbrev-commit" # GitX style on the command line
 function gbt () {
 	# Setup a tracking branch from [remote] [branch_name]
 	git branch --track $2 $1/$2
