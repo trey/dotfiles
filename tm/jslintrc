@@ -43,12 +43,10 @@ More info:
   /*** Globals ***/
   // To ignore any custom global variables, enable the `predef` option and list
   // your variables within it.
-  /*
+
   "predef": [
-    "myGlobalVar1",
-    "myGlobalVar2"
+    "$" // jQuery, y'all
   ],
-  */
 
   /*** Enforcing options ***/
   // Set these to `true` to enforce, or `false` to relax.
@@ -73,7 +71,7 @@ More info:
   "on":         false,
   "plusplus":   true,
   "regexp":     true,
-  "sloppy":     true,
+  "sloppy":     true, // ignore "use strict" business
   "sub":        false,
   "undef":      false,
   "unparam":    false,
