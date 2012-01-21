@@ -42,4 +42,7 @@ task :setup do
   if check_file("~/.ssh/config") == false
     exec "ln -s ~/bin/dotfiles/ssh/config ~/.ssh/config"
   end
+  if check_file("~/.jslintrc") == false
+    exec "ln -s ~/bin/dotfiles/tm/jslintrc ~/.jslintrc"
+  end
 end
