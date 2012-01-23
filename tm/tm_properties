@@ -7,3 +7,7 @@ windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/trey\/Sites\/[\w-]+\/
 
 [ text.html ]
 softWrap = false
+
+[ text.html.erb.rails ]
+softTabs = true
+tabSize = 2
