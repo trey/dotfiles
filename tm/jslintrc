@@ -45,7 +45,9 @@ More info:
   // your variables within it.
 
   "predef": [
-    "$" // jQuery, y'all
+    "$", // jQuery, y'all
+    "console",
+    "alert"
   ],
 
   /*** Enforcing options ***/
