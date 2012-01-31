@@ -1,4 +1,4 @@
-fontName       = "Inconsolata"
+fontName       = "Anonymous Pro"
 fontSize       = 14
 showInvisibles = true
 softWrap       = false
@@ -9,3 +9,6 @@ windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/trey\/Sites\/[\w-]+\/
 
 [ text.html ]
 softWrap = false
+
+[ text.html.django ]
+tabSize = 4
