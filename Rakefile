@@ -54,7 +54,7 @@ task :setup do
 
   # ssh config goes in a different place
   # ------------------------------------
-   %x{mkdir -p ~/.ssh}
+  %x{mkdir -p ~/.ssh}
   if check_file("~/.ssh/config")
     puts "~/.ssh/config ... already exists"
   else
