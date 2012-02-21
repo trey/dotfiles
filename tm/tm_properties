@@ -1,5 +1,5 @@
-fontName       = "Anonymous Pro"
-fontSize       = 13
+fontName       = "Inconsolata"
+fontSize       = 14
 showInvisibles = true
 softWrap       = false
 softTabs       = true
