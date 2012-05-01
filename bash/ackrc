@@ -1,0 +1,3 @@
+--type-set=css=.css,.scss,.less
+--type-add=js=.json
+--ignore-dir=build
