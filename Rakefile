@@ -44,6 +44,17 @@ def copy_example(path)
   end
 end
 
+def link_st2_settings
+  settings_path = "~/Library/Application\ Support/Sublime\ Text\ 2/Packages"
+  full_path = File.expand_path(settings_path)
+  if check_file(settings_path + '/User')
+    puts "#{settings_path}/User ... already exists. Please delete it if you want to link this version."
+  else
+    %x{ln -s ~/bin/dotfiles/st2/User '#{full_path}'}
+    puts "#{settings_path}/User ... LINKED!"
+  end
+end
+
 desc "Set up Trey's dotfiles"
 task :setup do
   @examples.each do |example|
@@ -52,6 +63,7 @@ task :setup do
   @files.each do |file|
     link_file(file)
   end
+  link_st2_settings
 
   # ssh config goes in a different place
   # ------------------------------------
