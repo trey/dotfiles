@@ -1,4 +1,5 @@
 [
 	{ "keys": ["ctrl+super+w"], "command": "close_all" },
-	{ "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} }
+	{ "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["super+alt+["], "command": "reindent" }
 ]

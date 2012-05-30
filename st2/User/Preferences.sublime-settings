@@ -1,10 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
 	"font_face": "Inconsolata",
 	"font_size": 13.0,
-	"theme": "Soda Light Refined.sublime-theme",
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"theme": "Soda Light Refined.sublime-theme"
 }
