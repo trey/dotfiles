@@ -1,11 +1,12 @@
 {
-	"auto_upgrade_last_run": 1338417087,
+	"auto_upgrade_last_run": 1339082470,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
 		"ColorPicker",
 		"Djaneiro",
 		"Git",
+		"LESS",
 		"Package Control",
 		"SchemeCycler",
 		"Theme - Soda",
