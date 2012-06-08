@@ -1,6 +1,6 @@
-export EDITOR="mate -w"
-export SVN_EDITOR="mate -w"
-export GIT_EDITOR="mate -w"
+export EDITOR="subl -w"
+export SVN_EDITOR="subl -w"
+export GIT_EDITOR="subl -w"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then

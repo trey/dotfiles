@@ -1,37 +1,14 @@
 alias h=history
-alias tu="top -o cpu"   # CPU
+alias tu="top -o cpu" # CPU
 alias tm="top -o vsize" # memory
 alias ra="source ~/bin/dotfiles/bash/aliases" # reload aliases
-alias ea="mate -w ~/bin/dotfiles/bash/aliases && ra" # edit aliases
+alias ea="subl -w ~/bin/dotfiles/bash/aliases && ra" # edit aliases
 alias cdtm="cd ~/'Library/Application Support/Avian/Bundles/'"
 alias retm="osascript -e 'tell app \"TextMate\" to reload bundles'"
 alias cdsp="cd `python -c 'from distutils.sysconfig import get_python_lib; print get_python_lib()'`"
 function take() {
 	mkdir $1
 	cd $1
-}
-function template() {
-	if [[ $1 != '' ]] ; then
-		mkdir $1
-		cd $1
-		cp ~/Webs/site-template/html5.html ./index.html
-		echo ""
-		echo "copied $1/index.html ..."
-		cp ~/Webs/site-template/.htaccess .
-		echo "copied $1/.htaccess ..."
-		cp ~/Webs/site-template/robots.txt .
-		echo "copied $1/robots.txt ..."
-		cp -R ~/Webs/site-template/css .
-		echo "copied $1/css/ ..."
-		cp -R ~/Webs/site-template/js .
-		echo "copied $1/js/ ..."
-		cp -R ~/Webs/site-template/img .
-		echo "copied $1/img/ ..."
-		echo ""
-		echo "Success!"
-	else
-		echo "usage: template directory"
-	fi
 }
 
 #Django
@@ -51,29 +28,3 @@ function delsvn() {
 		esac
 	done
 }
-
-# App Engine
-alias aeu="appcfg.py update ."
-alias aed="dev_appserver.py ."
-
-# Git
-alias gst="git status"
-alias gl="git pull"
-alias gp="git push"
-alias gd="git diff | mate"
-alias gc="git commit -v"
-alias gca="git commit -v -a"
-alias gb="git branch"
-alias gba="git branch -a"
-alias gcm="git commit -a -m"
-function gbt () {
-	# Setup a tracking branch from [remote] [branch_name]
-	git branch --track $2 $1/$2
-	git checkout $2
-}
-alias plog="git log --pretty=format:'%C(yellow)%h%Creset %s %Cblue%d%Creset' --graph --decorate=full --all"
-
-# Pow
-# https://gist.github.com/1343748
-alias startpow='curl get.pow.cx | sh'
-alias stoppow='curl get.pow.cx/uninstall.sh | sh'
