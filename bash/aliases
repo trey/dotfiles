@@ -6,13 +6,17 @@ alias ea="subl -w ~/bin/dotfiles/bash/aliases && ra" # edit aliases
 alias cdtm="cd ~/'Library/Application Support/Avian/Bundles/'"
 alias retm="osascript -e 'tell app \"TextMate\" to reload bundles'"
 alias cdsp="cd `python -c 'from distutils.sysconfig import get_python_lib; print get_python_lib()'`"
-alias gst="git status -sb"
 function take() {
 	mkdir $1
 	cd $1
 }
 
-#Django
+# Git
+alias gst="git status -sb"
+alias gb="git branch"
+alias gba="git branch -a"
+
+# Django
 alias dj="./manage.py runserver"
 alias djreset="rm dev.db; ./manage.py syncdb --noinput; ./manage.py loaddata auth auth.json"
 alias djemail="python -m smtpd -n -c DebuggingServer localhost:1025"

@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
+	"word_wrap": false,
 	"ignored_packages":
 	[
 		"Vintage"

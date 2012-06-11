@@ -4,8 +4,6 @@
 [alias]
 	co = checkout
 	l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-	gb = branch
-	gba = branch -a
 	amen = commit --amend -C HEAD
 	undo = reset --soft HEAD^
 	who = shortlog -sn
