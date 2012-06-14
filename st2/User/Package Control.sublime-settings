@@ -1,10 +1,11 @@
 {
-	"auto_upgrade_last_run": 1339427492,
+	"auto_upgrade_last_run": 1339689540,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
 		"ColorPicker",
 		"Djaneiro",
+		"ExpressionEngine",
 		"Git",
 		"LESS",
 		"Package Control",
