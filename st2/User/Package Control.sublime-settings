@@ -14,8 +14,8 @@
 		"Package Control",
 		"Sass",
 		"SchemeCycler",
-		"sublime-jslint",
-		"Theme - Soda",
-		"Theme - Soda Refined"
+		"sublime-jslint"
+		// "Theme - Soda",
+		// "Theme - Soda Refined"
 	]
 }
