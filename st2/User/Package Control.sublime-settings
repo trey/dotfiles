@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1340723766,
+	"auto_upgrade_last_run": 1342463975,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -14,8 +14,7 @@
 		"Package Control",
 		"Sass",
 		"SchemeCycler",
-		"sublime-jslint"
-		// "Theme - Soda",
-		// "Theme - Soda Refined"
+		"SCSS",
+		"SublimeLinter"
 	]
 }
