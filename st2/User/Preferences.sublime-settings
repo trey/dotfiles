@@ -2,12 +2,13 @@
 	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
-	"word_wrap": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"tab_size": 4,
+	"theme": "AppKit.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	"word_wrap": false
 }
