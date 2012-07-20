@@ -3,5 +3,6 @@
 	{ "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 	{ "keys": ["super+alt+["], "command": "reindent" },
 	{ "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
-	{ "keys": ["super+shift+m"], "command": "toggle_minimap" }
+	{ "keys": ["super+shift+m"], "command": "toggle_minimap" },
+	{ "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
 ]
