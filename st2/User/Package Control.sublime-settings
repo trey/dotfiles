@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1343657780,
+	"auto_upgrade_last_run": 1345731958,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
+		"Auto Semi-Colon",
 		"CoffeeScript",
 		"ColorPicker",
 		"Djaneiro",
@@ -17,6 +18,7 @@
 		"SchemeCycler",
 		"SCSS",
 		"sublime-jslint",
-		"Theme - Aqua"
+		"Theme - Aqua",
+		"Theme - Soda"
 	]
 }

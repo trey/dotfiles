@@ -1,15 +1,19 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
+	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Espresso Aqua.tmTheme",
 	"font_face": "Inconsolata",
 	"font_size": 13.0,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"rulers":
+	[
+		80
+	],
 	"tab_size": 4,
-	"theme": "AppKit.sublime-theme",
+	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
-	"word_wrap": false,
-	"rulers": [80]
+	"word_wrap": false
 }
