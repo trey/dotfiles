@@ -9,8 +9,6 @@
   'git/gitexcludes',
   'tm/jslintrc',
   'tm/tm_properties',
-  'vim/vimrc',
-  'vim/gvimrc'
 ]
 
 # example files to copy before linking
