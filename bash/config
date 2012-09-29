@@ -1,5 +1,8 @@
-if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-	. `brew --prefix`/etc/bash_completion.d/git-completion.bash 
+if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
+	. `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 	GIT_PS1_SHOWDIRTYSTATE=true
 	PS1='\u@\h \W$(__git_ps1)\$ '
+fi
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+	. `brew --prefix`/etc/bash_completion.d/git-completion.bash 
 fi

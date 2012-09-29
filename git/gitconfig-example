@@ -28,3 +28,5 @@
 	whitespace = nowarn
 [core]
 	excludesfile = "~/.gitexcludes"
+[credential]
+	helper = osxkeychain
