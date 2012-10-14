@@ -1,7 +1,7 @@
 export EDITOR="subl -w"
 export SVN_EDITOR="subl -w"
 export GIT_EDITOR="subl -w"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:~/.rvm/bin:~/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
