@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350249588,
+	"auto_upgrade_last_run": 1352141423,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -14,11 +14,14 @@
 		"LESS",
 		"Markdown Preview",
 		"Package Control",
+		"Prefixr",
 		"Sass",
 		"SchemeCycler",
 		"SCSS",
 		"sublime-jslint",
+		"SublimeLinter",
 		"Theme - Aqua",
-		"Theme - Soda"
+		"Theme - Soda",
+		"ZenCoding"
 	]
 }
