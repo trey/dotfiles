@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352141423,
+	"auto_upgrade_last_run": 1353280115,
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
@@ -7,6 +7,7 @@
 		"CoffeeScript",
 		"ColorPicker",
 		"Djaneiro",
+		"Emmet",
 		"ExpressionEngine",
 		"Git",
 		"Guard",
@@ -21,7 +22,6 @@
 		"sublime-jslint",
 		"SublimeLinter",
 		"Theme - Aqua",
-		"Theme - Soda",
-		"ZenCoding"
+		"Theme - Soda"
 	]
 }
