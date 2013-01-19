@@ -2,3 +2,4 @@ ssh/config
 git/gitconfig
 *.swp
 *.cache
+Package Control.last-run
