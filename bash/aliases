@@ -22,7 +22,7 @@ alias djreset="rm dev.db; ./manage.py syncdb --noinput; ./manage.py loaddata aut
 alias djemail="python -m smtpd -n -c DebuggingServer localhost:1025"
 
 # Recursive Deleting
-alias delpyc="find . -name '*.pyc' -print0|xargs -0 rm"
+alias delpyc="find . -name '*.pyc' -exec rm {} \;"
 function delsvn() {
 	while true; do
 		read -p "Are you sure? " yn
