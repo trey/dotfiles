@@ -10,3 +10,6 @@ fi
 if [ -f ~/src/django/extras/django_bash_completion ]; then
 	. ~/src/django/extras/django_bash_completion
 fi
+if [ -f ~/.emma ]; then
+    . ~/.emma
+fi
