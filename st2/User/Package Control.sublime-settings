@@ -4,6 +4,7 @@
 	[
 		"ApacheConf.tmLanguage",
 		"Auto Semi-Colon",
+		"ChangeQuotes",
 		"CoffeeScript",
 		"ColorPicker",
 		"Dayle Rees Color Schemes",
@@ -22,6 +23,7 @@
 		"Sass",
 		"SchemeCycler",
 		"SCSS",
+		"Sublime-HTMLPrettify",
 		"sublime-jslint",
 		"SublimeLinter",
 		"Theme - Aqua",
