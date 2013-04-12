@@ -1,14 +1,14 @@
 export EDITOR="subl -w"
 export SVN_EDITOR="subl -w"
 export GIT_EDITOR="subl -w"
-export PATH=/usr/local/bin:\
+export PATH="/usr/local/bin:\
 /usr/local/sbin:\
 /usr/local/mysql/bin:\
 ~/.rvm/bin:\
 ~/bin:\
 ~/bin/common:\
 /usr/local/share/npm/bin:\
-$PATH
+$PATH"
 
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
