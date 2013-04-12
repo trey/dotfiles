@@ -8,6 +8,7 @@ export PATH="/usr/local/bin:\
 ~/bin:\
 ~/bin/common:\
 /usr/local/share/npm/bin:\
+/usr/local/heroku/bin:\
 $PATH"
 
 export WORKON_HOME=$HOME/.virtualenvs
