@@ -6,11 +6,11 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
 	"tab_size": 4,
 	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
-	"vintage_start_in_command_mode": true,
 	"word_wrap": false
 }
