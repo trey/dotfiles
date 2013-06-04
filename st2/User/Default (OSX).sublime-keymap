@@ -6,5 +6,6 @@
 	{ "keys": ["super+shift+m"], "command": "toggle_minimap" },
 	{ "keys": ["super+alt+l"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
 	{ "keys": ["super+alt+r"], "command": "set_setting", "args": {"setting": "rulers", "value": [80]} },
-	{ "keys": ["super+alt+shift+r"], "command": "set_setting", "args": {"setting": "rulers", "value": []} }
+	{ "keys": ["super+alt+shift+r"], "command": "set_setting", "args": {"setting": "rulers", "value": []} },
+	{ "keys": ["super+shift+c"], "command": "color_pick" }
 ]
