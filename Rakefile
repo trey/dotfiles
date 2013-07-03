@@ -53,8 +53,17 @@ def link_st2_settings
   end
 end
 
+def link_dotjs
+  if check_file("~/.js")
+    puts "~/.js ... already exists. Please delete it if you want to link this version."
+  else
+    %x{ln -s ~/bin/dotfiles/js ~/.js}
+    puts "~/.js ... LINKED!"
+  end
+end
+
 desc "Set up Trey's dotfiles"
-task :setup do
+task :install do
   @examples.each do |example|
     copy_example(example)
   end
@@ -62,6 +71,7 @@ task :setup do
     link_file(file)
   end
   link_st2_settings
+  link_dotjs
 
   # ssh config goes in a different place
   # ------------------------------------
