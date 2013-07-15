@@ -1,0 +1,1 @@
+$('.ego_column').hide();
