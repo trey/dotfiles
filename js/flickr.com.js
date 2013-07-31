@@ -1,2 +1,2 @@
-$('#eyebrow').remove();
+$('#eyebrow').hide();
 $('body').removeClass('with-eyebrow');
