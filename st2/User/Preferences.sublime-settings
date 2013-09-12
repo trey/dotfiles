@@ -1,19 +1,8 @@
 {
 	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Espresso Aqua.tmTheme",
 	"detect_slow_plugins": false,
-	"font_face": "Inconsolata",
-	"font_size": 13.0,
-	"highlight_line": true,
-	"ignored_packages":
+	"file_exclude_patterns":
 	[
-		"Vintage"
-	],
-	"tab_size": 4,
-	"theme": "Soda Light.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
-	"word_wrap": false,
-	"file_exclude_patterns": [
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -34,5 +23,17 @@
 		"*.psd",
 		"*.db",
 		"*.scssc"
-	]
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+	"word_wrap": false
 }
