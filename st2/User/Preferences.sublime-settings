@@ -24,6 +24,9 @@
 		"*.db",
 		"*.scssc"
 	],
+	"folder_exclude_patterns": [
+		".sass-cache"
+	],
 	"font_face": "Source Code Pro",
 	"font_size": 12.0,
 	"highlight_line": true,
