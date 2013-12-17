@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"color_scheme": "Packages/Theme - itg.flat/itg.Monokai.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -36,7 +36,9 @@
 		"Vintage"
 	],
 	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "itg.flat.dark.sublime-theme",
+	"itg_small_tabs": true,
+	"itg_sidebar_tree_medium": true,
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"word_wrap": false
