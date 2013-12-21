@@ -35,10 +35,10 @@
 	[
 		"Vintage"
 	],
+	"itg_sidebar_tree_medium": true,
+	"itg_small_tabs": true,
 	"tab_size": 4,
 	"theme": "itg.flat.dark.sublime-theme",
-	"itg_small_tabs": true,
-	"itg_sidebar_tree_medium": true,
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"word_wrap": false
