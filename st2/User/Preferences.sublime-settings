@@ -26,6 +26,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		".git",
 		".sass-cache"
 	],
 	"font_face": "Source Code Pro",
@@ -33,7 +34,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"AdvancedNewFile"
 	],
 	"itg_sidebar_tree_medium": true,
 	"itg_small_tabs": true,
