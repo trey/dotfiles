@@ -4,9 +4,9 @@ export GIT_EDITOR="subl -w"
 export PATH="/usr/local/bin:\
 /usr/local/sbin:\
 /usr/local/mysql/bin:\
-~/.rvm/bin:\
-~/bin:\
-~/bin/common:\
+$HOME/.rvm/bin:\
+$HOME/bin:\
+$HOME/bin/common:\
 /usr/local/share/npm/bin:\
 /usr/local/heroku/bin:\
 $PATH"
@@ -15,9 +15,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 	. /usr/local/bin/virtualenvwrapper.sh
-fi
-if [ -f ~/src/django/extras/django_bash_completion ]; then
-	. ~/src/django/extras/django_bash_completion
 fi
 if [ -f ~/.emma ]; then
     . ~/.emma

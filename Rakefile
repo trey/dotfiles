@@ -1,6 +1,7 @@
 # put new dotfiles here
 # ---------------------
 @files = [
+  'zsh/zshrc',
   'bash/ackrc',
   'bash/bash_profile',
   'bash/bashrc',
