@@ -51,6 +51,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# This is to remove the `git:` before the branch name from the "robbyrussell" theme.
+ZSH_THEME_GIT_PROMPT_PREFIX="(%{$fg[red]%}"
+
 source ~/bin/dotfiles/bash/env
 
 # export MANPATH="/usr/local/man:$MANPATH"
