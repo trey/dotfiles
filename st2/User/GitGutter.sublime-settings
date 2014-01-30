@@ -1,0 +1,6 @@
+{
+
+  // Add a special marker on untracked files
+  "show_markers_on_untracked_file": false
+
+}
