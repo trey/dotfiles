@@ -34,8 +34,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"AdvancedNewFile"
+		"Vintage"
 	],
 	"itg_sidebar_tree_medium": true,
 	"itg_small_tabs": true,
