@@ -11,6 +11,14 @@
   'tm/tm_properties',
 ]
 
+@atom_files = [
+  'config.cson',
+  'init.coffee',
+  'keymap.cson',
+  'snippets.cson',
+  'styles.less'
+]
+
 # example files to copy before linking
 # ------------------------------------
 @examples = [
@@ -53,6 +61,17 @@ def link_st2_settings
   end
 end
 
+def link_atom_settings
+  @atom_files.each do |file|
+    if check_file("~/.atom/#{file}")
+      puts "~/.atom/#{file} ... already exists\n"
+    else
+      %x{ln -s ~/bin/dotfiles/atom/#{file} ~/.atom/#{file}}
+      puts "~/.atom/#{file} ... LINKED!\n"
+    end
+  end
+end
+
 def link_dotjs
   if check_file("~/.js")
     puts "~/.js ... already exists. Please delete it if you want to link this version."
@@ -83,6 +102,7 @@ task :install do
     link_file(file)
   end
   link_st2_settings
+  link_atom_settings
   link_dotjs
   setup_zsh
 
