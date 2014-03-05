@@ -1,6 +1,6 @@
-export EDITOR="atom"
-export SVN_EDITOR="atom"
-export GIT_EDITOR="atom"
+export EDITOR="atom -w"
+export SVN_EDITOR="atom -w"
+export GIT_EDITOR="atom -w"
 export PATH="/usr/local/bin:\
 /usr/local/sbin:\
 /usr/local/mysql/bin:\
