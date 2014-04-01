@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/light/snappy-light.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -39,7 +39,7 @@
 	"itg_sidebar_tree_medium": true,
 	"itg_small_tabs": true,
 	"tab_size": 4,
-	"theme": "itg.flat.dark.sublime-theme",
+	"theme": "itg.flat.light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"word_wrap": false

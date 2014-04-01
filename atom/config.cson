@@ -1,7 +1,7 @@
 'exception-reporting':
   'userId': 'b55e98f5-a093-fffa-c6ad-3b2cef16de26'
 'release-notes':
-  'viewedVersion': '0.73.0'
+  'viewedVersion': '0.81.0'
 'welcome':
   'showOnStartup': false
 'metrics':
@@ -14,7 +14,7 @@
 'core':
   'themes': [
     'unity-ui'
-    'dracula-theme'
+    'fizzy'
   ]
   'ignoredNames': [
     '.git'
