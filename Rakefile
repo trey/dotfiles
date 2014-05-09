@@ -41,14 +41,14 @@ def copy_example(path)
   end
 end
 
-def link_st2_settings
-  settings_path = "~/Library/Application\ Support/Sublime\ Text\ 2/Packages"
+def link_sublime_text
+  settings_path = "~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User"
   full_path = File.expand_path(settings_path)
-  if check_file(settings_path + '/User')
-    puts "#{settings_path}/User ... already exists. Please delete it if you want to link this version."
+  if check_file(settings_path)
+    puts "#{settings_path} ... already exists. Please delete it if you want to link this version."
   else
-    %x{ln -s ~/bin/dotfiles/st2/User '#{full_path}'}
-    puts "#{settings_path}/User ... LINKED!"
+    %x{ln -s ~/bin/dotfiles/st3 '#{full_path}'}
+    puts "#{settings_path} ... LINKED!"
   end
 end
 
@@ -81,7 +81,7 @@ task :install do
   @files.each do |file|
     link_file(file)
   end
-  link_st2_settings
+  link_sublime_text
   link_dotjs
   setup_zsh
 

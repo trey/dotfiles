@@ -1,6 +1,5 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/light/snappy-light.tmTheme",
-	"detect_slow_plugins": false,
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -22,25 +21,24 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.sublime-workspace",
 		"*.scssc"
 	],
 	"folder_exclude_patterns":
 	[
+		".svn",
 		".git",
+		".hg",
+		"CVS",
 		".sass-cache"
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 12.0,
-	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"itg_sidebar_tree_medium": true,
 	"itg_small_tabs": true,
-	"tab_size": 4,
-	"theme": "itg.flat.light.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
-	"word_wrap": false
+	"theme": "itg.flat.dark.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
