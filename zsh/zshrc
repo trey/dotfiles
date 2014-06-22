@@ -55,6 +55,7 @@ source $ZSH/oh-my-zsh.sh
 ZSH_THEME_GIT_PROMPT_PREFIX="(%{$fg[red]%}"
 
 source ~/bin/dotfiles/bash/env
+source ~/bin/dotfiles/bash/aliases
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
