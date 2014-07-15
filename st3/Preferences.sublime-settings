@@ -30,7 +30,8 @@
 		".git",
 		".hg",
 		"CVS",
-		".sass-cache"
+		".sass-cache",
+		"node_modules"
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 12.0,
