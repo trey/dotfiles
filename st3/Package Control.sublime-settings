@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AngularJS",
 		"ApacheConf.tmLanguage",
 		"Base16 Color Schemes",
 		"ColorPicker",
@@ -12,6 +13,7 @@
 		"HTML Underscore Syntax",
 		"HTML-CSS-JS Prettify",
 		"jQuery",
+		"JSHint Gutter",
 		"Sass",
 		"SCSS",
 		"SublimeLinter",
