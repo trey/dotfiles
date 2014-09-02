@@ -53,6 +53,8 @@ source $ZSH/oh-my-zsh.sh
 
 # This is to remove the `git:` before the branch name from the "robbyrussell" theme.
 ZSH_THEME_GIT_PROMPT_PREFIX="(%{$fg[red]%}"
+# Put the current date and time on the right of the screen.
+RPROMPT='%W %t'
 
 source ~/bin/dotfiles/bash/env
 source ~/bin/dotfiles/bash/aliases
