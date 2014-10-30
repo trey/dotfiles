@@ -58,7 +58,6 @@ RPROMPT='%W %t'
 
 source ~/bin/dotfiles/bash/env
 source ~/bin/dotfiles/bash/aliases
-source ~/bin/dotfiles/zsh/keypad
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
