@@ -1,6 +1,6 @@
 {
-	// "color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
-	"color_scheme": "Packages/User/base16-tomorrow.light (SL).tmTheme",
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
+	// "color_scheme": "Packages/User/base16-tomorrow.light (SL).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -35,13 +35,15 @@
 		"node_modules"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 13.0,
+	"font_size": 17.0,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	// "theme": "Soda Dark 3.sublime-theme",
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
+	// "theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
