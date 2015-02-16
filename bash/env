@@ -1,5 +1,4 @@
 export EDITOR="subl -w"
-export SVN_EDITOR="subl -w"
 export GIT_EDITOR="subl -w"
 export PATH="/usr/local/bin:\
 /usr/local/sbin:\
