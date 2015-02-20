@@ -6,13 +6,5 @@
 	{ "keys": ["super+shift+m"], "command": "toggle_minimap" },
 	{ "keys": ["super+alt+l"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
 	{ "keys": ["super+alt+r"], "command": "toggle_rulers", "args": { "values": [80, 120] } },
-	{ "keys": ["super+shift+c"], "command": "color_pick" },
-	{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [
-        {
-            "operand": "source.js",
-            "operator": "equal",
-            "match_all": true,
-            "key": "selector"
-        }
-	]}
+	{ "keys": ["super+shift+c"], "command": "color_pick" }
 ]
