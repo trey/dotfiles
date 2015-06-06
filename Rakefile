@@ -6,8 +6,7 @@
   'bash/bashrc',
   'bash/inputrc',
   'git/gitconfig',
-  'git/gitexcludes',
-  'tm/jslintrc',
+  'git/gitexcludes'
 ]
 
 # example files to copy before linking
@@ -52,15 +51,6 @@ def link_sublime_text
   end
 end
 
-def link_dotjs
-  if check_file("~/.js")
-    puts "~/.js ... already exists. Please delete it if you want to link this version."
-  else
-    %x{ln -s ~/bin/dotfiles/js ~/.js}
-    puts "~/.js ... LINKED!"
-  end
-end
-
 def setup_zsh
   if check_file("~/.zshrc")
     puts "~/.zshrc ... already exists. Please delete it if you want to link this version."
@@ -82,7 +72,6 @@ task :install do
     link_file(file)
   end
   link_sublime_text
-  link_dotjs
   setup_zsh
 
   # ssh config goes in a different place
