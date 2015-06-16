@@ -3,7 +3,7 @@
 	[
 		"Piepmeier"
 	],
-	"color_scheme": "Packages/User/base16-tomorrow.light (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -43,7 +43,8 @@
 	[
 		"Vintage"
 	],
-	"theme": "Soda Light 3.sublime-theme",
+	"tabs_small": true,
+	"theme": "Afterglow-blue.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
