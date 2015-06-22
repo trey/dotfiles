@@ -51,18 +51,6 @@ def link_sublime_text
   end
 end
 
-def setup_zsh
-  if check_file("~/.zshrc")
-    puts "~/.zshrc ... already exists. Please delete it if you want to link this version."
-  else
-    # Install oh-my-zsh
-    %x{curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh}
-    %x{rm ~/.zshrc}
-    %x{ln -s ~/bin/dotfiles/zsh/zshrc ~/.zshrc}
-    puts "~/.zshrc ... LINKED (and oh-my-zsh installed)!"
-  end
-end
-
 desc "Set up Trey's dotfiles"
 task :install do
   @examples.each do |example|
@@ -72,7 +60,6 @@ task :install do
     link_file(file)
   end
   link_sublime_text
-  setup_zsh
 
   # ssh config goes in a different place
   # ------------------------------------

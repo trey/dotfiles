@@ -10,6 +10,15 @@ $HOME/bin/common:\
 /usr/local/heroku/bin:\
 $PATH"
 
+export WORKON_HOME=$HOME/.virtualenvs
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+    . /usr/local/bin/virtualenvwrapper.sh
+fi
+
 if [ -f ~/.emma ]; then
     . ~/.emma
 fi
+
+. ~/bin/dotfiles/bash/vendor/z.sh
+. ~/bin/dotfiles/bash/vendor/rprompt.sh

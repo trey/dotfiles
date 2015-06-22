@@ -1,8 +1,7 @@
-if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
-	. `brew --prefix`/etc/bash_completion.d/git-prompt.sh
-	GIT_PS1_SHOWDIRTYSTATE=true
-	PS1='\[$GREEN\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\]\$ '
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+    GIT_PS1_SHOWDIRTYSTATE=true
+    PS1='\[$MAGENTA\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\]\$ '
 fi
-if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-	. `brew --prefix`/etc/bash_completion.d/git-completion.bash 
-fi
+
+export RPROMPT=$(date '+%b %d %r %Z')
