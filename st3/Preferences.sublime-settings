@@ -44,6 +44,7 @@
 	[
 		"Vintage"
 	],
+	"status_bar_brighter": true,
 	"tabs_small": true,
 	"theme": "Afterglow-blue.sublime-theme",
 	"translate_tabs_to_spaces": true,

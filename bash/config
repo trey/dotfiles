@@ -4,4 +4,4 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     PS1='\[$MAGENTA\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\]\$ '
 fi
 
-export RPROMPT=$(date '+%b %d %r %Z')
+export RPROMPT="\$(date '+%b %d %r %Z')"
