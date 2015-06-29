@@ -35,7 +35,8 @@
 		".hg",
 		"CVS",
 		".sass-cache",
-		"node_modules"
+		"node_modules",
+		"bower_components"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 16.0,
