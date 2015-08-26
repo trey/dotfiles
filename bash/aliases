@@ -8,6 +8,16 @@ alias server="python -m SimpleHTTPServer"
 alias l="ls -lah"
 alias ..="cd .."
 alias ...="cd ../.."
+function dtoff() {
+	# Temporarily remove everything from the desktop.
+	defaults write com.apple.finder CreateDesktop false;
+	killall Finder
+}
+function dton() {
+	# Restore the desktop.
+	defaults write com.apple.finder CreateDesktop true;
+	killall Finder
+}
 function take() {
 	mkdir $1
 	cd $1
