@@ -1,5 +1,5 @@
-export EDITOR="subl -w"
-export GIT_EDITOR="subl -w"
+export EDITOR="atom --wait"
+export GIT_EDITOR="atom --wait"
 export PATH="/usr/local/bin:\
 /usr/local/sbin:\
 /usr/local/mysql/bin:\
