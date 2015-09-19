@@ -8,6 +8,38 @@ alias server="python -m SimpleHTTPServer"
 alias l="ls -lah"
 alias ..="cd .."
 alias ...="cd ../.."
+
+# Utility Functions
+
+function blank() {
+	# Create a new project based on
+	# https://github.com/trey/blank
+	if [ -d $HOME/Code/blank ]; then
+		if [ $# -eq 1 ]; then
+			echo "Installing a new project based on Blank."
+			git clone ~/Code/blank $1
+			cd $1
+			script/setup
+			rm -rf .git
+			echo "# My Project" > README.md
+			echo "#!/bin/bash" > script/bootstrap
+			echo "echo \"Nothing to do.\"" >> script/bootstrap
+			echo "echo \"Edit your script/bootstrap.\"" >> script/bootstrap
+			git init
+			git add .
+			git commit -m "Starting point based on Trey's Blank Slate."
+		else
+			echo "Please try again with a name for your new project."
+		fi
+	else
+		echo "You don't have Blank installed."
+		echo "Run the following commands ..."
+		echo "mkdir -p ~/Code"
+		echo "cd ~/Code"
+		echo "git clone git@github.com:trey/blank.git"
+		echo "... and try again."
+	fi
+}
 function dtoff() {
 	# Temporarily remove everything from the desktop.
 	defaults write com.apple.finder CreateDesktop false;
