@@ -5,3 +5,7 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 export RPROMPT="\$(date '+%b %d %r %Z')"
+
+# El Capitan stuff.
+# https://www.reddit.com/r/osx/comments/397uep/changes_to_bash_sessions_and_terminal_in_el/
+[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
