@@ -13,7 +13,7 @@
 	branch = auto
 	diff = auto
 	status = auto
-	ui = auto
+	ui = always
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -27,10 +27,17 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
 [apply]
 	whitespace = nowarn
 [core]
-	excludesfile = "~/.gitexcludes"
+	excludesfile = ~/.gitexcludes
+	# https://viget.com/extend/dress-up-your-git-diffs-with-word-level-highlights
+	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
 [credential]
 	helper = osxkeychain
 [difftool "Kaleidoscope"]
