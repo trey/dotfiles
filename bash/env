@@ -21,4 +21,3 @@ if [ -f ~/.emma ]; then
 fi
 
 . ~/bin/dotfiles/bash/vendor/z.sh
-. ~/bin/dotfiles/bash/vendor/rprompt.sh
