@@ -1,5 +1,6 @@
 . ~/bin/dotfiles/bash/env
 . ~/bin/dotfiles/bash/rvm
+. ~/bin/dotfiles/bash/nvm
 . ~/bin/dotfiles/bash/colors
 . ~/bin/dotfiles/bash/config
 . ~/bin/dotfiles/bash/aliases
