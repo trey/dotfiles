@@ -1,18 +1,13 @@
 export EDITOR="atom --wait"
 export GIT_EDITOR="atom --wait"
 export PATH="/usr/local/bin:\
-/usr/local/sbin:\
-/usr/local/mysql/bin:\
 $HOME/.rvm/bin:\
 $HOME/bin:\
 $HOME/bin/common:\
-/usr/local/share/npm/bin:\
-/usr/local/heroku/bin:\
 $PATH"
 
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
     . /usr/local/bin/virtualenvwrapper.sh
 fi
 
@@ -20,4 +15,6 @@ if [ -f ~/.emma ]; then
     . ~/.emma
 fi
 
+. ~/bin/dotfiles/bash/vendor/git-completion.bash
+. ~/bin/dotfiles/bash/vendor/git-prompt.sh
 . ~/bin/dotfiles/bash/vendor/z.sh

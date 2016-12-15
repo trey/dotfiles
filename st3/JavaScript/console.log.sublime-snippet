@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-console.${1:log}(${2});
-]]></content>
-    <tabTrigger>cl</tabTrigger>
-    <scope>source.js</scope>
-</snippet>

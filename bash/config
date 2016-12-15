@@ -1,9 +1,2 @@
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
-    GIT_PS1_SHOWDIRTYSTATE=true
-    PS1='\[$MAGENTA\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\]💀  '
-fi
-
-# El Capitan stuff.
-# https://www.reddit.com/r/osx/comments/397uep/changes_to_bash_sessions_and_terminal_in_el/
-[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
+GIT_PS1_SHOWDIRTYSTATE=true
+PS1='\[$MAGENTA\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\] 💀  '

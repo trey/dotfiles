@@ -1,19 +1,15 @@
 # put new dotfiles here
 # ---------------------
 @files = [
-  'bash/ackrc',
   'bash/bash_profile',
   'bash/bashrc',
-  'bash/inputrc',
-  'git/gitconfig',
-  'git/gitexcludes'
+  'bash/inputrc'
 ]
 
 # example files to copy before linking
 # ------------------------------------
 @examples = [
   'git/gitconfig',
-  'ssh/config'
 ]
 
 def check_file(file)
@@ -40,34 +36,9 @@ def copy_example(path)
   end
 end
 
-def link_sublime_text
-  settings_path = "~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User"
-  full_path = File.expand_path(settings_path)
-  if check_file(settings_path)
-    puts "#{settings_path} ... already exists. Please delete it if you want to link this version."
-  else
-    %x{ln -s ~/bin/dotfiles/st3 '#{full_path}'}
-    puts "#{settings_path} ... LINKED!"
-  end
-end
-
 desc "Set up Trey's dotfiles"
 task :install do
-  @examples.each do |example|
-    copy_example(example)
-  end
   @files.each do |file|
     link_file(file)
-  end
-  link_sublime_text
-
-  # ssh config goes in a different place
-  # ------------------------------------
-  %x{mkdir -p ~/.ssh}
-  if check_file("~/.ssh/config")
-    puts "~/.ssh/config ... already exists"
-  else
-    %x{ln -s ~/bin/dotfiles/ssh/config ~/.ssh/config}
-    puts "~/.ssh/config ... linked!"
   end
 end
