@@ -3,7 +3,9 @@
 @files = [
   'bash/bash_profile',
   'bash/bashrc',
-  'bash/inputrc'
+  'bash/inputrc',
+  'git/gitconfig',
+  'git/gitexcludes'
 ]
 
 # example files to copy before linking
@@ -38,7 +40,13 @@ end
 
 desc "Set up Trey's dotfiles"
 task :install do
+  @examples.each do |example|
+    copy_example(example)
+  end
   @files.each do |file|
     link_file(file)
+  end
+  unless check_file("/usr/local/share/git-core/contrib/diff-highlight/diff-highlight")
+    %x{brew install git}
   end
 end

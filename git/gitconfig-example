@@ -4,3 +4,12 @@
 [alias]
 	co = checkout
 	l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[core]
+	excludesfile = ~/.gitexcludes
+	# https://www.viget.com/articles/dress-up-your-git-diffs-with-word-level-highlights
+	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
