@@ -1,5 +1,5 @@
-export EDITOR="atom --wait"
-export GIT_EDITOR="atom --wait"
+export EDITOR="subl -w"
+export GIT_EDITOR="subl -w"
 export GEM_HOME=$HOME/gems
 export PATH="/usr/local/bin:\
 $HOME/bin:\

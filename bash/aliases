@@ -15,3 +15,7 @@ alias gd="git diff"
 
 # Recursive Deleting
 alias delpyc="find . -name '*.pyc' -exec rm {} \;"
+
+# Fix Mac hardware
+alias fixcamera="sudo killall VDCAssistant"
+alias fixaudio="sudo killall coreaudiod"
