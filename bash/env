@@ -12,8 +12,8 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     . /usr/local/bin/virtualenvwrapper.sh
 fi
 
-if [ -f ~/.emma ]; then
-    . ~/.emma
+if [ -f ~/.appomni ]; then
+    . ~/.appomni
 fi
 
 . ~/bin/dotfiles/bash/vendor/git-completion.bash
