@@ -12,6 +12,7 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gl="git pull"
 alias gd="git diff"
+# see ggpush, ggpushf in `functions.sh`
 
 # Recursive Deleting
 alias delpyc="find . -name '*.pyc' -exec rm {} \;"
