@@ -1,5 +1,7 @@
-. ~/bin/dotfiles/bash/env
-. ~/bin/dotfiles/bash/nvm
-. ~/bin/dotfiles/bash/colors
-. ~/bin/dotfiles/bash/config
-. ~/bin/dotfiles/bash/aliases
+. ~/bin/dotfiles/bash/pieces/env.sh
+. ~/bin/dotfiles/bash/pieces/vendor-commands.sh
+. ~/bin/dotfiles/bash/pieces/virtualenvwrapper.sh
+. ~/bin/dotfiles/bash/pieces/nvm.sh
+. ~/bin/dotfiles/bash/pieces/colors.sh
+. ~/bin/dotfiles/bash/pieces/prompt.sh
+. ~/bin/dotfiles/bash/pieces/aliases.sh
