@@ -12,6 +12,9 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gl="git pull"
 alias gd="git diff"
+alias gsl="git stash list --date=local"
+alias gss="git stash show"
+alias gssp="git stash show -p"
 # see ggpush, ggpushf in `functions.sh`
 
 # Recursive Deleting
