@@ -1,2 +1,1 @@
-GIT_PS1_SHOWDIRTYSTATE=true
-PS1='\[$MAGENTA\]\w\[$PURPLE\]$(__git_ps1)\[$RESET\] 💀 '
+PROMPT="%F{red}%~%f ⚡️ "
