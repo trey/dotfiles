@@ -4,6 +4,5 @@
 . ~/bin/dotfiles/bash/pieces/nvm.sh
 . ~/bin/dotfiles/bash/pieces/rbenv.sh
 . ~/bin/dotfiles/bash/pieces/colors.sh
-. ~/bin/dotfiles/bash/pieces/prompt.sh
 . ~/bin/dotfiles/bash/pieces/aliases.sh
 . ~/bin/dotfiles/bash/pieces/functions.sh

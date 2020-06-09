@@ -1,0 +1,8 @@
+[[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
+
+autoload -Uz compinit && compinit # for Git (and other things?)
+autoload -U promptinit; promptinit
+zstyle :prompt:pure:git:stash show yes
+prompt pure
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
