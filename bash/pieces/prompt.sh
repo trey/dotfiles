@@ -1,1 +1,0 @@
-PROMPT="%F{red}%~%f ⚡️ "
