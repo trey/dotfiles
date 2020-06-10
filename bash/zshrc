@@ -101,7 +101,13 @@ source $ZSH/oh-my-zsh.sh
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 
 autoload -U promptinit; promptinit
-prompt purer
+zstyle :prompt:pure:git:stash show yes
+zstyle :prompt:pure:path color cyan
+
+prompt pure
+# https://github.com/sindresorhus/pure/wiki/Customizations,-hacks-and-tweaks#single-line-prompt
+prompt_newline='%666v'
+PROMPT=" $PROMPT"
 
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
