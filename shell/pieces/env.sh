@@ -5,5 +5,4 @@ export PATH="/usr/local/bin:\
 $HOME/bin:\
 $HOME/bin/common:\
 $HOME/gems/bin:\
-$HOME/.composer/vendor/bin:\
 $PATH"
