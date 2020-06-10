@@ -1,5 +1,5 @@
 alias h=history
-alias ra="source ~/bin/dotfiles/bash/aliases" # reload aliases
+alias ra="source ~/bin/dotfiles/shell/aliases" # reload aliases
 alias server="python -m SimpleHTTPServer"
 alias l="ls -lah"
 alias game="emacs -batch -l dunnet"

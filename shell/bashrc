@@ -1,0 +1,9 @@
+. ~/bin/dotfiles/shell/pieces/env.sh
+. ~/bin/dotfiles/shell/pieces/virtualenvwrapper.sh
+. ~/bin/dotfiles/shell/pieces/nvm.sh
+. ~/bin/dotfiles/shell/pieces/rbenv.sh
+. ~/bin/dotfiles/shell/pieces/colors.sh
+. ~/bin/dotfiles/shell/pieces/aliases.sh
+. ~/bin/dotfiles/shell/pieces/functions.sh
+. ~/bin/dotfiles/shell/pieces/keypad.sh
+. ~/bin/dotfiles/shell/inputrc

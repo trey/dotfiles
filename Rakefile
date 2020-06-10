@@ -1,9 +1,8 @@
 # put new dotfiles here
 # ---------------------
 @files = [
-  'bash/bash_profile',
-  'bash/bashrc',
-  'bash/inputrc',
+  'shell/bashrc',
+  'shell/zshrc',
   'git/gitconfig',
   'git/gitexcludes'
 ]
@@ -38,7 +37,7 @@ def copy_example(path)
   end
 end
 
-desc "Set up Trey's dotfiles"
+desc "Set up Trey’s dotfiles"
 task :install do
   @examples.each do |example|
     copy_example(example)
