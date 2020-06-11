@@ -4,12 +4,6 @@ function _getbranch() {
     branch_name=${branch_name:-HEAD}
 }
 
-function ggpush() {
-    _getbranch
-    echo "${GREEN}git push origin ${branch_name} ${1}${RESET}"
-    git push origin $branch_name $1
-}
-
 function ggpushf() {
     _getbranch
     read "answer?Are you sure you want to force push ${branch_name}? "
