@@ -12,14 +12,12 @@ function ggpush() {
 
 function ggpushf() {
     _getbranch
-    read -p "Are you sure you want to force push ${branch_name}? " answer
-    case ${answer:0:1} in
-        y|Y )
-            echo "${GREEN}git push origin ${branch_name} --force-with-lease${RESET}"
-            git push origin $branch_name --force-with-lease
-        ;;
-        * )
-            echo "${GREEN}Ok, no push.${RESET}"
-        ;;
-    esac
+    read "answer?Are you sure you want to force push ${branch_name}? "
+    if [[ "$answer" =~ ^[Yy]$ ]]
+    then
+        echo "${fg[green]}git push origin ${branch_name} --force-with-lease${reset_color}"
+        git push origin $branch_name --force-with-lease
+    else
+        echo "${fg[green]}Ok, no push.${reset_color}"
+    fi
 }
