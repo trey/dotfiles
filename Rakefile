@@ -46,6 +46,6 @@ task :install do
     link_file(file)
   end
   unless check_file("/usr/local/share/git-core/contrib/diff-highlight/diff-highlight")
-    %x{brew install git bash-completion}
+    %x{brew install git}
   end
 end
