@@ -16,4 +16,6 @@ To set things up:
     - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
     - [Fira Code](https://github.com/tonsky/FiraCode#download--install)
     - Or some [Powerline-compatible font](https://github.com/powerline/fonts)
+1. [Install fzf](https://github.com/junegunn/fzf/#using-homebrew-or-linuxbrew)
+    - `brew install fzf`
 1. Run `rake install` from inside the `~/bin/dotfiles` folder.
