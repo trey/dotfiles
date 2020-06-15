@@ -15,6 +15,7 @@ alias gd="git diff"
 alias gsl="git stash list --date=local"
 alias gss="git stash show"
 alias gssp="git stash show -p"
+alias gu="git reset HEAD~" # undo commit and leave changes unstaged
 # see ggpush, ggpushf in `functions.sh`
 
 # Recursive Deleting
