@@ -3,7 +3,7 @@
 # Keypad
 # 0 . Enter
 bindkey -s "^[Op" "0"
-bindkey -s "^[Ol" "."
+bindkey -s "^[On" "."
 bindkey -s "^[OM" "^M"
 # 1 2 3
 bindkey -s "^[Oq" "1"
