@@ -18,4 +18,5 @@ To set things up:
     - Or some [Powerline-compatible font](https://github.com/powerline/fonts)
 1. [Install fzf](https://github.com/junegunn/fzf/#using-homebrew-or-linuxbrew)
     - `brew install fzf`
+    - Follow its instructions to finish installation.
 1. Run `rake install` from inside the `~/bin/dotfiles` folder.
