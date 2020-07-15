@@ -13,3 +13,5 @@
 	excludesfile = ~/.gitexcludes
 	# https://www.viget.com/articles/dress-up-your-git-diffs-with-word-level-highlights
 	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+[pager]
+	branch = false
