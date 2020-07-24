@@ -15,3 +15,5 @@
 	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
 [pager]
 	branch = false
+[pull]
+	rebase = false
