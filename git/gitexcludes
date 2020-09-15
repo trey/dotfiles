@@ -3,3 +3,5 @@
 .sass-cache
 *.pyc
 .vscode/
+.nova/
+__pycache__/
