@@ -23,4 +23,4 @@ alias delpyc="find . -name '*.pyc' -exec rm {} \;"
 
 # Fix Mac hardware
 alias fixcamera="sudo killall VDCAssistant"
-alias fixaudio="sudo killall coreaudiod"
+alias fixaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
