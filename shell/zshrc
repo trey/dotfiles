@@ -106,6 +106,8 @@ SPACESHIP_PROMPT_PREFIXES_SHOW=false
 SPACESHIP_PACKAGE_SHOW=false
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
+SPACESHIP_DOCKER_SHOW=false
+SPACESHIP_RUBY_SHOW=false
 
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
