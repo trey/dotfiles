@@ -15,3 +15,7 @@ function ggpushf() {
         echo "${fg[green]}Ok, no push.${reset_color}"
     fi
 }
+
+if [ -d ~/Code/shortener ]; then
+    function shorten() { node ~/Code/shortener/node_modules/.bin/netlify-shortener "$1" "$2"; }
+fi
