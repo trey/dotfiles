@@ -20,3 +20,17 @@ To set things up:
     - `brew install fzf`
     - Follow its instructions to finish installation.
 1. Run `rake install` from inside the `~/bin/dotfiles` folder.
+
+---
+
+I don’t have Oh-My-Zsh set up for [automatic updates](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#disable_auto_update). To check for updates:
+
+```shell
+source $ZSH/tools/check_for_upgrade.sh
+```
+
+To update:
+
+```shell
+omz update
+```
