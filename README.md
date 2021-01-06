@@ -13,7 +13,6 @@ To set things up:
     - `git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"`
     - `ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"`
 1. Install a fancy font.
-    - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
     - [Fira Code](https://github.com/tonsky/FiraCode#download--install)
     - Or some [Powerline-compatible font](https://github.com/powerline/fonts)
 1. [Install fzf](https://github.com/junegunn/fzf/#using-homebrew-or-linuxbrew)
