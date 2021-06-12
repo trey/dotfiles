@@ -24,7 +24,7 @@ To set things up:
 
 ---
 
-I don’t have Oh-My-Zsh set up for [automatic updates](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#disable_auto_update). To check for updates:
+I don’t have Oh-My-Zsh set up for [automatic updates](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#disable_auto_update). To check for updates (as of 2021-06-12, this command doesn’t seem to work):
 
 ```shell
 source $ZSH/tools/check_for_upgrade.sh
