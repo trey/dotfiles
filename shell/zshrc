@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -100,15 +100,6 @@ source $ZSH/oh-my-zsh.sh
 
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 
-SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_PROMPT_SEPARATE_LINE=false
-SPACESHIP_PROMPT_PREFIXES_SHOW=false
-SPACESHIP_PACKAGE_SHOW=false
-SPACESHIP_CHAR_SYMBOL="❯"
-SPACESHIP_CHAR_SUFFIX=" "
-SPACESHIP_DOCKER_SHOW=false
-SPACESHIP_RUBY_SHOW=false
-
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
@@ -116,3 +107,5 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export GPG_TTY=$(tty)
+
+eval "$(starship init zsh)"
