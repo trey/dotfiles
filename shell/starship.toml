@@ -1,26 +1,11 @@
 # https://starship.rs/config/
 # I live in `~/.config/starship.toml`.
 
-add_newline = false
-
-[line_break]
-disabled = true
-
-[git_branch]
-# Remove the default `on` before the branch name.
-format = "[$symbol$branch]($style) "
-
 [docker_context]
 disabled = true
 
-[nodejs]
-symbol = "⬢ "
-# Remove the default `via` before the version name.
-format = "[$symbol($version )]($style)"
-
 [python]
-# Remove the default `via` before the version name.
-format = "[$symbol($version )]($style)"
+disabled = true
 
 [package]
 disabled = true

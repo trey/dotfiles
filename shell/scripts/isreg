@@ -1,5 +1,0 @@
-#! /usr/bin/env ruby
-#
-# Save in your path as "isreg" and chmod +x. Then: isreg domain.com
-#
-puts `whois #{ARGV[0]}` =~ /No match for domain \"#{ARGV[0]}\"/mi ? "No" : "Yes"
