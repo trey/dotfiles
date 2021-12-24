@@ -11,21 +11,20 @@ Install things:
 - [Install Starship prompt.](https://starship.rs/#quick-install)
   - `brew install starship`
 - Install a fancy font.
-  - [Fira Code](https://github.com/tonsky/FiraCode#download--install)
-  - Or some [Nerd Font](https://www.nerdfonts.com/font-downloads).
-    - I dig `Inconsolata Nerd Font` for the terminal.
+  - For VS Code: [Fira Code](https://github.com/tonsky/FiraCode#download--install)
+  - For Terminal (including in VS Code), some [Nerd Font](https://www.nerdfonts.com/font-downloads) [version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular).
 - [Install fzf](https://github.com/junegunn/fzf/#using-homebrew-or-linuxbrew)
   - `brew install fzf`
   - Follow its instructions to finish installation.
 
 Set up configuration files. Something like…
 
-- `mkdir -p ~/.config&&ln -s shell/starship.toml ~/.config/starship.toml`
-- `cp git/gitconfig-example git/gitconfig&&ln -s git/gitconfig ~/.gitconfig` (edit this one)
-- `ln -s git/gitexcludes ~/.gitexcludes`
-- `ln -s shell/zshrc ~/.zshrc
-
----
+```shell
+mkdir -p ~/.config&&ln -s shell/starship.toml ~/.config/starship.toml
+cp git/gitconfig-example git/gitconfig&&ln -s git/gitconfig ~/.gitconfig # (edit this one)
+ln -s git/gitexcludes ~/.gitexcludes
+ln -s shell/zshrc ~/.zshrc
+```
 
 I don’t have Oh-My-Zsh set up for [automatic updates](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#disable_auto_update).
 
