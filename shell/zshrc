@@ -98,6 +98,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias gst="git status -sb"
 
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/bin/dotfiles/shell/pieces/functions.sh'
 
