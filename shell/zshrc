@@ -100,7 +100,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gst="git status -sb"
 
-[[ -e ~/.bashrc ]] && emulate sh -c 'source ~/bin/dotfiles/shell/pieces/functions.sh'
+[[ -e ~/.bashrc ]] && emulate sh -c 'source ~/bin/dotfiles/shell/functions.sh'
 
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
