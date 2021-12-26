@@ -9,3 +9,6 @@ disabled = true
 
 [package]
 disabled = true
+
+[nodejs]
+symbol = "⬢ "
