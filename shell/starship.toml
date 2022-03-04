@@ -4,11 +4,15 @@
 [docker_context]
 disabled = true
 
-[python]
-disabled = true
 
 [package]
 disabled = true
 
 [nodejs]
 symbol = "⬢ "
+
+[battery]
+# https://github.com/starship/starship/blob/8f464e4c1d4ac04767db798ead986a59f4115716/src/configs/battery.rs#L22-L23
+# via https://github.com/starship/starship/issues/3248
+charging_symbol = "⇡ "
+discharging_symbol = "⇣ "
