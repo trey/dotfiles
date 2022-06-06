@@ -99,6 +99,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gst="git status -sb"
+alias gbd="git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'"
 
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/bin/dotfiles/shell/functions.sh'
 
