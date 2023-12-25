@@ -16,3 +16,6 @@ symbol = "⬢ "
 # via https://github.com/starship/starship/issues/3248
 charging_symbol = "⇡ "
 discharging_symbol = "⇣ "
+
+[git_branch]
+symbol = " "
