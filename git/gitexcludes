@@ -2,6 +2,6 @@
 *.swp
 .sass-cache
 *.pyc
-.vscode/
 .nova/
 __pycache__/
+venv/
