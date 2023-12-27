@@ -10,22 +10,17 @@ Install things:
   - `brew install zsh-syntax-highlighting`
 - [Install Starship prompt.](https://starship.rs/#quick-install)
   - `brew install starship`
+- [Install kitty](https://sw.kovidgoyal.net/kitty/binary.html#macos)
+  - `brew install kitty`
 - Install a fancy font.
-  - For VS Code: [Fira Code](https://github.com/tonsky/FiraCode#download--install).
-  - For Terminal (including in VS Code), some [Nerd Font](https://www.nerdfonts.com/font-downloads) [version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode/Regular).
+  - [Recursive Mono](https://www.recursive.design)
+  - [Symbols Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases)
+    - [Set it up in kitty](https://sw.kovidgoyal.net/kitty/faq/#kitty-is-not-able-to-use-my-favorite-font)
 - [Install fzf.](https://github.com/junegunn/fzf/#using-homebrew-or-linuxbrew)
   - `brew install fzf`
   - Follow its instructions to finish installation.
-- Maybe [set up GPG stuff for Git](https://github.com/trey/dotfiles/commit/59b5a834a8079778f70b013f929f1f1d9b97d12a).
-- Maybe install [asdf](https://asdf-vm.com).
+- [Set up GPG stuff for Git](https://github.com/trey/dotfiles/commit/59b5a834a8079778f70b013f929f1f1d9b97d12a).
 
 Set up configuration files. Something like…
 
-```shell
-mkdir -p ~/.config&&ln -s shell/starship.toml ~/.config/starship.toml
-cp git/gitconfig-example git/gitconfig&&ln -s git/gitconfig ~/.gitconfig # (edit this one)
-ln -s git/gitexcludes ~/.gitexcludes
-ln -s shell/zshrc ~/.zshrc
-```
-
-I don’t have Oh-My-Zsh set up for [automatic updates](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#disable_auto_update). To update: `omz update`.
+Run the installer: `./install.sh`
