@@ -107,9 +107,9 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gst="git status -sb"
-# alias python="/usr/local/bin/python3"
 alias python3="/usr/local/bin/python3"
-# alias cat="bat"
+alias ccat="/bin/cat"
+alias cat="bat"
 alias vim="nvim"
 alias icat="kitten icat"
 
@@ -136,3 +136,7 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/trey/Library/Application Support/Herd/co
 
 # Herd injected PHP 8.2 configuration.
 export HERD_PHP_82_INI_SCAN_DIR="/Users/trey/Library/Application Support/Herd/config/php/82/"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
