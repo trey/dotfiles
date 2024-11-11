@@ -120,8 +120,9 @@ if [ -f /opt/homebrew/opt/zsh-syntax-highlighting/share/zsh-syntax-highlighting/
     . /opt/homebrew/opt/zsh-syntax-highlighting/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 [ -f ~/bin/functions.sh ] && source ~/bin/functions.sh
+[ -f ~/bin/fzf-git.sh ] && source ~/bin/fzf-git.sh
 
 eval "$(starship init zsh)"
 
