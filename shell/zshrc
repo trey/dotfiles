@@ -111,7 +111,6 @@ alias python3="/usr/local/bin/python3"
 alias ccat="/bin/cat"
 alias cat="bat"
 alias vim="nvim"
-alias icat="kitten icat"
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"

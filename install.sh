@@ -34,3 +34,9 @@ if [ -f $HOME/.zshrc ]; then
 else
 	ln -s $DOTFILES/shell/zshrc $HOME/.zshrc
 fi
+
+if [ -f $HOME/.config/ghostty.conf ]; then
+  echo "$HOME/.config/ghostty.conf already exists, skipping"
+else
+  ln -s $DOTFILES/shell/ghostty.conf $HOME/.config/ghostty/conf
+fi
