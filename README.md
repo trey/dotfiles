@@ -18,6 +18,4 @@ Install things:
   - Follow its instructions to finish installation.
 - [Set up GPG stuff for Git](https://github.com/trey/dotfiles/commit/59b5a834a8079778f70b013f929f1f1d9b97d12a).
 
-Set up configuration files. Something like…
-
 Run the installer: `./install.sh`
