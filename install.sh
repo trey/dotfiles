@@ -19,14 +19,14 @@ fi
 if [ -f $HOME/.gitconfig ]; then
 	echo "$HOME/.gitconfig already exists, skipping"
 else
-	cp $DOTFILES/git/gitconfig-example $DOTFILES/git/gitconfig
-	ln -s $DOTFILES/git/gitconfig $HOME/.gitconfig
+	cp $DOTFILES/git/config-example $DOTFILES/git/config
+	ln -s $DOTFILES/git/config $HOME/.config/git/config
 fi
 
-if [ -f $HOME/.gitexcludes ]; then
-	echo "$HOME/.gitexcludes already exists, skipping"
+if [ -f $HOME/.config/git/excludes ]; then
+	echo "$HOME/.config/git/excludes already exists, skipping"
 else
-	ln -s $DOTFILES/git/gitexcludes $HOME/.gitexcludes
+	ln -s $DOTFILES/git/excludes $HOME/.config/git/excludes
 fi
 
 if [ -f $HOME/.zshrc ]; then

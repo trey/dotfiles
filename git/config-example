@@ -5,7 +5,7 @@
 	co = checkout
 	l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 [core]
-	excludesfile = ~/.gitexcludes
+	excludesfile = ~/.config/git/excludes
 	pager = delta
 [pager]
 	branch = false
