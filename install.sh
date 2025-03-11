@@ -29,6 +29,12 @@ else
 	ln -s $DOTFILES/git/excludes $HOME/.config/git/excludes
 fi
 
+if [ -f $HOME/.config/bat/config ]; then
+	echo "$HOME/.config/bat/config already exists, skipping"
+else
+	ln -s $DOTFILES/shell/bat-config $HOME/.config/bat/config
+fi
+
 if [ -f $HOME/.zshrc ]; then
 	echo "$HOME/.zshrc already exists, skipping"
 else
