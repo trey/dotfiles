@@ -5,15 +5,15 @@ DOTFILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 mkdir -p $HOME/.config
 
 if [ -d $HOME/.config/nvim ]; then
-  echo "$HOME/.config/nvim already exists, skipping"
+	echo "$HOME/.config/nvim already exists, skipping"
 else
-  ln -s $DOTFILES/nvim $HOME/.config/nvim
+	ln -s $DOTFILES/nvim $HOME/.config/nvim
 fi
 
 if [ -f $HOME/.config/starship.toml ]; then
-  echo "$HOME/.config/starship.toml already exists, skipping"
+	echo "$HOME/.config/starship.toml already exists, skipping"
 else
-  ln -s $DOTFILES/shell/starship.toml $HOME/.config/starship.toml
+	ln -s $DOTFILES/shell/starship.toml $HOME/.config/starship.toml
 fi
 
 if [ -f $HOME/.gitconfig ]; then
@@ -32,7 +32,7 @@ fi
 if [ -f $HOME/.config/bat/config ]; then
 	echo "$HOME/.config/bat/config already exists, skipping"
 else
-	ln -s $DOTFILES/shell/bat-config $HOME/.config/bat/config
+	ln -s $DOTFILES/shell/bat.conf $HOME/.config/bat/config
 fi
 
 if [ -f $HOME/.zshrc ]; then
@@ -42,7 +42,7 @@ else
 fi
 
 if [ -f $HOME/.config/ghostty.conf ]; then
-  echo "$HOME/.config/ghostty.conf already exists, skipping"
+	echo "$HOME/.config/ghostty.conf already exists, skipping"
 else
-  ln -s $DOTFILES/shell/ghostty.conf $HOME/.config/ghostty/conf
+	ln -s $DOTFILES/shell/ghostty.conf $HOME/.config/ghostty/conf
 fi
