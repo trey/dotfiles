@@ -107,6 +107,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gst="git status -sb"
+alias gpp="ggpush"
 alias python3="/usr/local/bin/python3"
 alias ccat="/bin/cat"
 alias cat="bat"
