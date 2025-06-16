@@ -16,6 +16,16 @@ Install things:
 - [Install fzf.](https://github.com/junegunn/fzf/?tab=readme-ov-file#using-homebrew)
   - `brew install fzf`
   - Follow its instructions to finish installation.
+- Helix stuff
+  - Install Emmet
+    - `npm i -g @olrtg/emmet-language-server`
+  - Install spell checker
+    - `npm install -g @vlabo/cspell-lsp`
+  - Automatic light/dark mode switching
+  - [Install Hammerspoon](https://github.com/Hammerspoon/hammerspoon?tab=readme-ov-file#homebrew)
+    - `brew install hammerspoon`
+    - Get it running and configure it how you want
+      - `hs`
 - [Set up GPG stuff for Git](https://github.com/trey/dotfiles/commit/59b5a834a8079778f70b013f929f1f1d9b97d12a).
 
 Run the installer: `./install.sh`

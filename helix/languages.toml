@@ -1,0 +1,25 @@
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
+[language-server.djlsp]
+command = "djlsp"
+
+[language-server.codebook]
+command = "cspell-lsp"
+args = ["--stdio", "--config", "/Users/trey/.config/helix/cspell.json"] # If the --config parameter is missing it will use the project cspell.json file.
+
+# ---
+
+[[language]]
+name = "python"
+auto-format = true
+
+[[language]]
+name = "html"
+language-servers = ["emmet-lsp", "djlsp", "cspell"]
+
+# Example use in markdown:
+[[language]]
+name = "markdown"
+language-servers = ["codebook", "cspell"]

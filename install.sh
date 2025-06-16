@@ -46,3 +46,21 @@ if [ -f $HOME/.config/ghostty.conf ]; then
 else
 	ln -s $DOTFILES/shell/ghostty.conf $HOME/.config/ghostty/conf
 fi
+
+if [ -f $HOME/.hammerspoon/init.lua ]; then
+	echo "$HOME/.hammerspoon/init.lua already exists, skipping"
+else
+	ln -s $DOTFILES/helix/init.lua $HOME/.hammerspoon
+fi
+
+if [ -f $HOME/.config/helix/config.toml ]; then
+	echo "$HOME/.config/helix/config.toml already exists, skipping"
+else
+	ln -s $DOTFILES/helix/config.toml $HOME/.config/helix
+fi
+
+if [ -f $HOME/.config/helix/languages.toml ]; then
+	echo "$HOME/.config/helix/languages.toml already exists, skipping"
+else
+	ln -s $DOTFILES/helix/languages.toml $HOME/.config/helix
+fi

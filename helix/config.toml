@@ -1,0 +1,8 @@
+theme = "adaptive"
+# carbonfox is a really nice dark tme
+
+[editor]
+# trim-trailing-whitespace = true
+
+[keys.normal]
+"C-i" = ":toggle whitespace.render all none"
