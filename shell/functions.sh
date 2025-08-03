@@ -15,6 +15,7 @@ function ggpushf() {
         echo "${fg[green]}Ok, no push.${reset_color}"
     fi
 }
+
 function cd() {
   builtin cd "$@"
 
@@ -41,6 +42,13 @@ function cd() {
   fi
 }
 
+function get_editor() {
+	if [[ "$ZED_TERM" == "true" ]]; then
+		echo "zed"
+	else
+		echo "code"
+	fi
+}
 
 if [ -d ~/Code/shortener ]; then
     function shorten() { node ~/Code/shortener/node_modules/.bin/netlify-shortener "$1" "$2"; }

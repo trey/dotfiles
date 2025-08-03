@@ -88,14 +88,6 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
-else
-  export EDITOR='code --wait'
-  export GIT_EDITOR='code --wait'
-fi
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -126,6 +118,14 @@ fi
 source <(fzf --zsh)
 [ -f ~/bin/functions.sh ] && source ~/bin/functions.sh
 [ -f ~/bin/fzf-git.sh ] && source ~/bin/fzf-git.sh
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nvim'
+else
+  export EDITOR="$(get_editor) --wait"
+  export GIT_EDITOR="$(get_editor) --wait"
+fi
 
 eval "$(starship init zsh)"
 
