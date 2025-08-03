@@ -64,3 +64,9 @@ if [ -f $HOME/.config/helix/languages.toml ]; then
 else
 	ln -s $DOTFILES/helix/languages.toml $HOME/.config/helix
 fi
+
+if [ -f $HOME/bin/functions.sh ]; then
+	echo "$HOME/bin/functions.sh already exists, skipping"
+else
+	ln -s $DOTFILES/shell/functions.sh $HOME/bin
+fi
