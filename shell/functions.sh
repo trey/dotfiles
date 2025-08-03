@@ -15,6 +15,32 @@ function ggpushf() {
         echo "${fg[green]}Ok, no push.${reset_color}"
     fi
 }
+function cd() {
+  builtin cd "$@"
+
+  if [[ -z "$VIRTUAL_ENV" ]] ; then
+    ## If venv folder is found then activate it
+      if [[ -d ./venv ]] ; then
+        source ./venv/bin/activate
+      fi
+      if [[ -d ./.venv ]] ; then
+        source ./.venv/bin/activate
+      fi
+  else
+    ## check the current folder belong to earlier VIRTUAL_ENV folder
+    # if yes then do nothing
+    # else deactivate
+      parentdir="$(dirname "$VIRTUAL_ENV")"
+      if [[ "$PWD"/ != "$parentdir"/* ]] ; then
+        deactivate
+      fi
+  fi
+
+  if [[ -f .nvmrc ]]; then
+    nvm use > /dev/null
+  fi
+}
+
 
 if [ -d ~/Code/shortener ]; then
     function shorten() { node ~/Code/shortener/node_modules/.bin/netlify-shortener "$1" "$2"; }
